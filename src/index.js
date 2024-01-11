@@ -7,8 +7,9 @@ import App from "./App";
 import "./index.css";
 import SimpleMovingButton from "./components/Buttons/SimpleMovingButton/SimpleMovingButton";
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const router = createBrowserRouter(routes);
+const router = createBrowserRouter(routes, { basename: "/pet-project" });
 
 root.render(
   <React.StrictMode>
