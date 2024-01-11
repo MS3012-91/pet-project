@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Graphik";
+  font-display: swap;
+  src: url("./Graphik/graphikbold-webfont.woff") format("woff"),
+    url("./Graphik/graphikbold-webfont.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-display: swap;
+  src: url("./Graphik/graphikregular-webfont.woff") format("woff"),
+    url("./Graphik/graphikregular-webfont.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-display: swap;
+  src: url("./Graphik/graphikthin-webfont.woff") format("woff"),
+    url("./Graphik/graphikthin-webfont.woff2") format("woff2");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "SF-Pro-Display";
+  font-display: swap;
+  src: url("./SF-Pro-Display/SF-Pro-Display-Regular.woff") format("woff"),
+    url("./SF-Pro-Display/sf-pro-display-regular-webfont.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SF-Pro-Display";
+  font-display: swap;
+  src: url("./SF-Pro-Display/SF-Pro-Display-Bold.woff") format("woff"),
+    url("./SF-Pro-Display/sf-pro-display-bold-webfont.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("./Montserrat/montserrat-variablefont_wght-webfont.woff")
+      format("woff"),
+    url("./Montserrat/montserrat-variablefont_wght-webfont.woff2")
+      format("woff2");
+}

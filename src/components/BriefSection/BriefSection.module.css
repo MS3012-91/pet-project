@@ -1,0 +1,110 @@
+.briefSection {
+  width: 600px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.infoBlock {
+  max-width: 80%;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoBlock h3 {
+  margin-bottom: 80px;
+}
+
+.briefContainer {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.briefSection p {
+  max-width: 800px;
+  min-width: 250px;
+  line-height: 1.4;
+}
+
+.fillOutButton {
+  margin-top: 30px;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 0.8em;
+}
+
+.fillOutButton:hover {
+  background-color: #fff;
+  border-radius: 8px;
+  color: #000;
+  transform: scale(1.1);
+  transition: background-color 1.5s;
+}
+
+.formik {
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form {
+  min-width: 50%;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  position: relative;
+}
+
+.icon {
+  background-color: #000;
+  position: absolute;
+  top: -30px;
+  border: 3px solid #fff;
+  border-radius: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.envelope {
+  width: 80px;
+  height: 40px;
+  margin: 10px;
+}
+
+label {
+  display: none;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.9em;
+  font-family: "Graphik", sans-serif;
+  border: 1px solid #000;
+  border-radius: 6px;
+  background-color: rgb(73, 66, 66);
+  text-transform: capitalize;
+}
+
+input:focus {
+  background-color: #fff;
+  outline: none;
+  border: 2px solid #31414b;
+  border-radius: 5px;
+  box-shadow: 0 0 0 3px #373f44, 0 0 0 5px #ccc;
+}
+
+@media screen and (min-width: 1000px) {
+  .briefContainer {
+    flex-direction: row;
+    gap: 50px;
+  }
+}

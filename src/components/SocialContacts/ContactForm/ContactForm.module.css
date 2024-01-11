@@ -1,0 +1,151 @@
+.form {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "SF-Pro-Display", sans-serif;
+}
+
+.fields {
+  width: 250px;
+  display: flex;
+}
+
+.label {
+  display:flex;
+  width: 100%;
+  font-size: 1.4em;
+  text-transform: capitalize;
+}
+
+.input, .textarea {
+  padding: 10px;
+  width: 130%;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  word-wrap: break-word;
+  color: #fff;
+  font-family: "Graphik", sans-serif;
+  font-size: 1.2em;
+}
+
+.textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  transform: skewX(-15deg);
+  background-color: transparent;
+}
+
+.label {
+  width: 100%;
+  font-size: 1.4em;
+}
+
+.textarea > .input:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+.submitForm {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 1.4em;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 45%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+
+.submitForm:hover {
+  transition: 2.5s linear;
+  background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+
+.submitForm:active {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.responseMessage {
+  position: absolute;
+  bottom: 150px;
+  background-color: #000;
+  font-weight: 800;
+  font-size: 1.5em;
+  padding: 70px 80px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.successfullySending {
+  color: green;
+}
+
+.sendingError {
+  color: red;
+}
+
+.closeNotification {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 500px) {
+  .form div {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .form div {
+    width: 600px;
+  }
+  .form label {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form div{
+    width: 1000px;
+    align-self: center;
+  }
+  .form label {
+    width: 25%;
+  }
+
+  .form .input {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .form div{
+    width: 1800px;
+  }
+  .form label {
+    width: 15%;
+  }
+
+.fields .input {
+    width: 1600px;
+  }
+}

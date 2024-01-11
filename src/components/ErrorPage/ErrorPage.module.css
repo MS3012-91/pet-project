@@ -1,0 +1,17 @@
+.errorPage {
+  width: 80%;
+  max-width: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.errorPage h1 + p + i {
+  padding: 10%;
+}
+
+.errorPage a {
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+}
