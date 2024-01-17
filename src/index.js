@@ -10,7 +10,7 @@ import SimpleMovingButton from "./components/Buttons/SimpleMovingButton/SimpleMo
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter(routes, {
-  basename: "https://ms3012-91.github.io/",
+  basename: "/pet-project",
 });
 
 root.render(
