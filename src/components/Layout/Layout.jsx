@@ -5,9 +5,12 @@ import { Outlet } from "react-router-dom";
 import CustomCursor from "../CustomCursor/CustomCursor";
 
 export default function Layout({ children }) {
+  const displayWidth = window.innerWidth;
+  const isDesktop = displayWidth > 1024;
+
   return (
     <div>
-      <CustomCursor />
+      {isDesktop&&<CustomCursor />}
       <header>
         <Header />
       </header>
