@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pet-project/static/css/main.f57feddb.css",
-    "main.js": "/pet-project/static/js/main.d3e1fe08.js",
+    "main.css": "/pet-project/static/css/main.ca4cf548.css",
+    "main.js": "/pet-project/static/js/main.1f7da3b9.js",
     "static/js/679.1f1207db.chunk.js": "/pet-project/static/js/679.1f1207db.chunk.js",
     "static/js/787.b6801e5f.chunk.js": "/pet-project/static/js/787.b6801e5f.chunk.js",
     "static/media/SF-Pro-Display-Bold.woff": "/pet-project/static/media/SF-Pro-Display-Bold.59b382e465663023c193.woff",
@@ -17,13 +17,13 @@
     "static/media/graphikregular-webfont.woff2": "/pet-project/static/media/graphikregular-webfont.68e8df9f61ec9d08b519.woff2",
     "static/media/montserrat-variablefont_wght-webfont.woff2": "/pet-project/static/media/montserrat-variablefont_wght-webfont.8784f5cf90d4fddaeec9.woff2",
     "index.html": "/pet-project/index.html",
-    "main.f57feddb.css.map": "/pet-project/static/css/main.f57feddb.css.map",
-    "main.d3e1fe08.js.map": "/pet-project/static/js/main.d3e1fe08.js.map",
+    "main.ca4cf548.css.map": "/pet-project/static/css/main.ca4cf548.css.map",
+    "main.1f7da3b9.js.map": "/pet-project/static/js/main.1f7da3b9.js.map",
     "679.1f1207db.chunk.js.map": "/pet-project/static/js/679.1f1207db.chunk.js.map",
     "787.b6801e5f.chunk.js.map": "/pet-project/static/js/787.b6801e5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f57feddb.css",
-    "static/js/main.d3e1fe08.js"
+    "static/css/main.ca4cf548.css",
+    "static/js/main.1f7da3b9.js"
   ]
 }
