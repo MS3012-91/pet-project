@@ -10,7 +10,7 @@ import SimpleMovingButton from "./components/Buttons/SimpleMovingButton/SimpleMo
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter(routes, {
-  basename: "/ms3012-91.github.io/VNV-Solutions",
+  basename: "https://ms3012-91.github.io/",
 });
 
 root.render(
