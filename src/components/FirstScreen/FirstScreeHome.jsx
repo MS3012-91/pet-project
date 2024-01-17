@@ -13,7 +13,7 @@ export default function FirstScreeHome () {
     <section className={styles.firstScreen}>
       <div className={styles.video}>
         <ReactPlayer
-          url='../../../public/assets/video/pexels-niezlyziom.mp4'
+          url='assets/video/pexels-niezlyziom.mp4'
           playing='true'
           loop='true'
           width={'100%'}
