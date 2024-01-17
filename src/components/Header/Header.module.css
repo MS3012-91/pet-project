@@ -15,10 +15,6 @@
   background-color: #fff;
 }
 
-.topContainer.homePage {
-  background-color: transparent;
-}
-
 .rightNavigation {
   display: flex;
   align-items: flex-end;
