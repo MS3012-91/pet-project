@@ -5,10 +5,10 @@ import SimpleMovingButton from "../Buttons/SimpleMovingButton/SimpleMovingButton
 import BurgerMovingButton from "../Buttons/BurgerMovingButton/BurgerMovingButton";
 import { useInView } from "framer-motion";
 
+
 export default function Header() {
   const location = useLocation().pathname;
   const [selectedLink, setSelectedLink] = useState(1);
-
    const [isBurgerActive, setBurgerActive] = useState(false);
 
   const navLinks = [
@@ -45,7 +45,7 @@ export default function Header() {
     <div
       ref={ref}
       className={`${
-        isBurgerActive ?  styles.topContainerContacts: styles.topContainer
+        isBurgerActive && location==='/contacts' ?  styles.topContainerContacts: styles.topContainer
       } ${location === "/" ? styles.homePage : ""}`}
     >
       <div

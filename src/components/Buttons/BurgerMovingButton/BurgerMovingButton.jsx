@@ -14,6 +14,9 @@ export default function BurgerMovingButton({isActive, setIsActive}) {
     if (!isActive && location.pathname === "/contacts") {
       navigate("/");
     }
+    else if (isActive && location.pathname !== '/contacts') {
+      setIsActive(false)
+    }
   }, [isActive, location.pathname, navigate]);
   return (
     <div
