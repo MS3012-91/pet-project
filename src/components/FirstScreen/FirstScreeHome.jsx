@@ -9,14 +9,16 @@ export default function FirstScreeHome () {
   const isInView = useInView(ref, { once: true });
   return (
     <section className={styles.firstScreen}>
-      <video className={styles.video} autoPlay playsInline muted loop>
+      <video className={styles.video} autoplay playsinline muted loop>
         <source
           src='assets/video/pexels-niezlyziom.webm'
           type='video/webm'
+          poster='assets/video/video-poster.png'
         ></source>
         <source
           src='assets/video/pexels-niezlyziom.mp4'
           type='video/mp4'
+          poster='assets/video/video-poster.png'
         ></source>
       </video>
       <div
