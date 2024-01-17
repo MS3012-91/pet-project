@@ -9,7 +9,9 @@ import SimpleMovingButton from "./components/Buttons/SimpleMovingButton/SimpleMo
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const router = createBrowserRouter(routes, { basename: "/pet-project" });
+const router = createBrowserRouter(routes, {
+  basename: "/ms3012-91.github.io/VNV-Solutions",
+});
 
 root.render(
   <React.StrictMode>
