@@ -1,12 +1,16 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import styles from "./Header.module.css";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import SimpleMovingButton from "../Buttons/SimpleMovingButton/SimpleMovingButton";
 import BurgerMovingButton from "../Buttons/BurgerMovingButton/BurgerMovingButton";
 import { useInView } from "framer-motion";
 
 export default function Header() {
   const location = useLocation().pathname;
+  const [selectedLink, setSelectedLink] = useState(1);
+
+   const [isBurgerActive, setBurgerActive] = useState(false);
+
   const navLinks = [
     {
       id: 1,
@@ -27,13 +31,12 @@ export default function Header() {
       id: 4,
       linkTo: "/team",
       name: "Team",
-    },
+    }
   ];
 
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
-  const [selectedLink, setSelectedLink] = useState(1);
   const handleMenuNavigation = (key) => {
     setSelectedLink(key);
   };
@@ -42,9 +45,7 @@ export default function Header() {
     <div
       ref={ref}
       className={`${
-        location === "/contacts"
-          ? styles.topContainerContacts
-          : styles.topContainer
+        isBurgerActive ?  styles.topContainerContacts: styles.topContainer
       } ${location === "/" ? styles.homePage : ""}`}
     >
       <div
@@ -56,7 +57,7 @@ export default function Header() {
         }}
       >
         <NavLink to='/' onClick={() => setSelectedLink(1)}>
-          <img src='assets/vnv logo-05.png' alt='logo' />
+          <img src='assets/vnv_logo-05.png' alt='logo' />
         </NavLink>
       </div>
       <div className={styles.rightNavigation}>
@@ -99,7 +100,13 @@ export default function Header() {
         <div className={styles.buttonContainer}>
           <NavLink to='/contacts'>
             <SimpleMovingButton>
-              <BurgerMovingButton />
+              <BurgerMovingButton
+                isActive={isBurgerActive}
+                setIsActive={setBurgerActive}
+                onClick={() => {
+                  setBurgerActive(!isBurgerActive);
+                }}
+              />
             </SimpleMovingButton>
           </NavLink>
         </div>

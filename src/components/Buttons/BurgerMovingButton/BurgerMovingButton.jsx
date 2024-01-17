@@ -1,9 +1,8 @@
-import React, { useEffect, useState,  } from "react";
+import React, { useEffect} from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import styles from "./BurgerMovingButton.module.css";
 
-export default function BurgerMovingButton() {
-  const [isActive, setIsActive] = useState(false);
+export default function BurgerMovingButton({isActive, setIsActive}) {
   const navigate = useNavigate();
   let location = useLocation();
 
