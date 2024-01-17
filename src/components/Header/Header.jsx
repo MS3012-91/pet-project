@@ -1,6 +1,6 @@
 import React, { useRef, useState} from "react";
 import styles from "./Header.module.css";
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import SimpleMovingButton from "../Buttons/SimpleMovingButton/SimpleMovingButton";
 import BurgerMovingButton from "../Buttons/BurgerMovingButton/BurgerMovingButton";
 import { useInView } from "framer-motion";

@@ -2,7 +2,7 @@ import React from "react";
 import Flickity from "react-flickity-component";
 import ProjectData from "./ProjectData";
 import styles from "./Projects.module.css";
-// import "flickity/css/flickity.css";
+import "flickity/css/flickity.css";
 
 const flickityOptions = {
   wrapAround: true,
