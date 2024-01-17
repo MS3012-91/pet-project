@@ -8,13 +8,14 @@
   background-color: black;
   position: relative;
   z-index: 100;
+  height: 150px;
 }
 
 .topContainerContacts {
   background-color: #fff;
 }
 
-.topContainer .homePage {
+.topContainer + .homePage {
   background-color: transparent;
 }
 

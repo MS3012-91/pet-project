@@ -54,7 +54,7 @@ export default function TeamPresentation() {
               }}
               whileInView={{
                 opacity: isInViewList ? 1 : 0,
-                translateX: isInViewList ? (index % 2 === 0 ? 200 : -200) : 0,
+                translateX: isInViewList ? (index % 2 === 0 ? '5vw' : '-5vw') : 0,
               }}
             >
               <a href='#brief'>

@@ -32,10 +32,12 @@
 
 .card {
   width: 100vw;
-  max-width: 600px;
+  max-width: 200px;
   display: flex;
   flex-direction: column;
 }
+
+
 
 .card .photo {
   width: 100%;
@@ -67,6 +69,10 @@
     top: -10px;
 }
 
+@media screen and (min-width: 700px) {
+  .card { max-width: 400px;}
+}
+
 @media screen and (min-width: 1000px) {
   .imagePlans img {
     width: 90%;
@@ -74,6 +80,7 @@
   .photosBlock {
     width: 90vw;
   }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -103,6 +110,10 @@
 }
 
 @media screen and (min-width: 1800px) {
+  .card  { 
+    max-width: 600px;
+  } 
+
     .workersList li:nth-child(1) {
     position: relative;
     top: 0;

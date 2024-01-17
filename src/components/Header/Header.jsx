@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState} from "react";
 import styles from "./Header.module.css";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import SimpleMovingButton from "../Buttons/SimpleMovingButton/SimpleMovingButton";
