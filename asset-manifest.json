@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/pet-project/static/css/main.25842b41.css",
-    "main.js": "/pet-project/static/js/main.87d8f179.js",
-    "static/js/679.1f1207db.chunk.js": "/pet-project/static/js/679.1f1207db.chunk.js",
-    "static/js/787.b6801e5f.chunk.js": "/pet-project/static/js/787.b6801e5f.chunk.js",
-    "static/media/SF-Pro-Display-Bold.woff": "/pet-project/static/media/SF-Pro-Display-Bold.59b382e465663023c193.woff",
-    "static/media/SF-Pro-Display-Regular.woff": "/pet-project/static/media/SF-Pro-Display-Regular.800b8a27efcff5b8ab4b.woff",
-    "static/media/graphikbold-webfont.woff": "/pet-project/static/media/graphikbold-webfont.cd0773e24d9876897bb8.woff",
-    "static/media/graphikthin-webfont.woff": "/pet-project/static/media/graphikthin-webfont.a9b7b1763deff2211972.woff",
-    "static/media/graphikregular-webfont.woff": "/pet-project/static/media/graphikregular-webfont.c1e6ceab786016e275ca.woff",
-    "static/media/sf-pro-display-bold-webfont.woff2": "/pet-project/static/media/sf-pro-display-bold-webfont.063396a471cbe111666c.woff2",
-    "static/media/graphikbold-webfont.woff2": "/pet-project/static/media/graphikbold-webfont.66d288dcf645474382fb.woff2",
-    "static/media/graphikthin-webfont.woff2": "/pet-project/static/media/graphikthin-webfont.a32f56763fde4788c13c.woff2",
-    "static/media/montserrat-variablefont_wght-webfont.woff": "/pet-project/static/media/montserrat-variablefont_wght-webfont.ca11f20c9e16bbd2f3da.woff",
-    "static/media/sf-pro-display-regular-webfont.woff2": "/pet-project/static/media/sf-pro-display-regular-webfont.16eb1cdee6e628ded20a.woff2",
-    "static/media/graphikregular-webfont.woff2": "/pet-project/static/media/graphikregular-webfont.68e8df9f61ec9d08b519.woff2",
-    "static/media/montserrat-variablefont_wght-webfont.woff2": "/pet-project/static/media/montserrat-variablefont_wght-webfont.8784f5cf90d4fddaeec9.woff2",
-    "index.html": "/pet-project/index.html",
-    "main.25842b41.css.map": "/pet-project/static/css/main.25842b41.css.map",
-    "main.87d8f179.js.map": "/pet-project/static/js/main.87d8f179.js.map",
-    "679.1f1207db.chunk.js.map": "/pet-project/static/js/679.1f1207db.chunk.js.map",
-    "787.b6801e5f.chunk.js.map": "/pet-project/static/js/787.b6801e5f.chunk.js.map"
+    "main.css": "/pet-project/public/static/css/main.cc171168.css",
+    "main.js": "/pet-project/public/static/js/main.790b61cc.js",
+    "static/js/679.1f1207db.chunk.js": "/pet-project/public/static/js/679.1f1207db.chunk.js",
+    "static/js/787.b6801e5f.chunk.js": "/pet-project/public/static/js/787.b6801e5f.chunk.js",
+    "static/media/SF-Pro-Display-Bold.woff": "/pet-project/public/static/media/SF-Pro-Display-Bold.59b382e465663023c193.woff",
+    "static/media/SF-Pro-Display-Regular.woff": "/pet-project/public/static/media/SF-Pro-Display-Regular.800b8a27efcff5b8ab4b.woff",
+    "static/media/graphikbold-webfont.woff": "/pet-project/public/static/media/graphikbold-webfont.cd0773e24d9876897bb8.woff",
+    "static/media/graphikthin-webfont.woff": "/pet-project/public/static/media/graphikthin-webfont.a9b7b1763deff2211972.woff",
+    "static/media/graphikregular-webfont.woff": "/pet-project/public/static/media/graphikregular-webfont.c1e6ceab786016e275ca.woff",
+    "static/media/sf-pro-display-bold-webfont.woff2": "/pet-project/public/static/media/sf-pro-display-bold-webfont.063396a471cbe111666c.woff2",
+    "static/media/graphikbold-webfont.woff2": "/pet-project/public/static/media/graphikbold-webfont.66d288dcf645474382fb.woff2",
+    "static/media/graphikthin-webfont.woff2": "/pet-project/public/static/media/graphikthin-webfont.a32f56763fde4788c13c.woff2",
+    "static/media/montserrat-variablefont_wght-webfont.woff": "/pet-project/public/static/media/montserrat-variablefont_wght-webfont.ca11f20c9e16bbd2f3da.woff",
+    "static/media/sf-pro-display-regular-webfont.woff2": "/pet-project/public/static/media/sf-pro-display-regular-webfont.16eb1cdee6e628ded20a.woff2",
+    "static/media/graphikregular-webfont.woff2": "/pet-project/public/static/media/graphikregular-webfont.68e8df9f61ec9d08b519.woff2",
+    "static/media/montserrat-variablefont_wght-webfont.woff2": "/pet-project/public/static/media/montserrat-variablefont_wght-webfont.8784f5cf90d4fddaeec9.woff2",
+    "index.html": "/pet-project/public/index.html",
+    "main.cc171168.css.map": "/pet-project/public/static/css/main.cc171168.css.map",
+    "main.790b61cc.js.map": "/pet-project/public/static/js/main.790b61cc.js.map",
+    "679.1f1207db.chunk.js.map": "/pet-project/public/static/js/679.1f1207db.chunk.js.map",
+    "787.b6801e5f.chunk.js.map": "/pet-project/public/static/js/787.b6801e5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25842b41.css",
-    "static/js/main.87d8f179.js"
+    "static/css/main.cc171168.css",
+    "static/js/main.790b61cc.js"
   ]
 }
