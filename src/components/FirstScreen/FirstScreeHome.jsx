@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { useInView } from "framer-motion";
-import ReactPlayer from "react-player";
 import SimpleMovingButton from "../Buttons/SimpleMovingButton/SimpleMovingButton";
 import ArrowMovingButton from "../Buttons/ArrowMovingButton/ArrowMovingButton";
 import styles from "./FirstScreen.module.css";
@@ -11,25 +10,20 @@ export default function FirstScreeHome () {
   const isInView = useInView(ref, { once: true });
   return (
     <section className={styles.firstScreen}>
-      <div className={styles.video}>
-        <ReactPlayer
-          url='assets/video/pexels-niezlyziom.mp4'
-          playing='true'
-          loop='true'
-          width={'100%'}
-          height={'100%'}
-        />
-      </div>
-      {/* <video className={styles.video} autoplay="true" muted playsinline= "true" loop>
-        <source
-          src='/video/pexels-niezlyziom.webm'
+      <video
+        className={styles.video}
+        autoplay='true'
+        muted
+        playsinline='true'
+        loop
+          src='assets/video/pexels-niezlyziom.webm'
           type='video/webm'
-        ></source>
-        <source
+        >
+        {/* <source
           src='assets/video/pexels-niezlyziom.mp4'
           type='video/mp4'
-        ></source>
-      </video> */}
+        ></source> */}
+      </video>
       <div
         className={styles.heroSection}
         ref={ref}
