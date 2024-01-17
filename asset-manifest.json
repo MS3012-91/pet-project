@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pet-project/static/css/main.41acf34e.css",
-    "main.js": "/pet-project/static/js/main.19fe1e1f.js",
+    "main.js": "/pet-project/static/js/main.e5a56d5f.js",
     "reactPlayerYouTube.js": "/pet-project/static/js/reactPlayerYouTube.8a71beed.chunk.js",
     "reactPlayerSoundCloud.js": "/pet-project/static/js/reactPlayerSoundCloud.ba26ccf2.chunk.js",
     "reactPlayerVimeo.js": "/pet-project/static/js/reactPlayerVimeo.7f978b46.chunk.js",
@@ -31,7 +31,7 @@
     "static/media/montserrat-variablefont_wght-webfont.woff2": "/pet-project/static/media/montserrat-variablefont_wght-webfont.8784f5cf90d4fddaeec9.woff2",
     "index.html": "/pet-project/index.html",
     "main.41acf34e.css.map": "/pet-project/static/css/main.41acf34e.css.map",
-    "main.19fe1e1f.js.map": "/pet-project/static/js/main.19fe1e1f.js.map",
+    "main.e5a56d5f.js.map": "/pet-project/static/js/main.e5a56d5f.js.map",
     "reactPlayerYouTube.8a71beed.chunk.js.map": "/pet-project/static/js/reactPlayerYouTube.8a71beed.chunk.js.map",
     "reactPlayerSoundCloud.ba26ccf2.chunk.js.map": "/pet-project/static/js/reactPlayerSoundCloud.ba26ccf2.chunk.js.map",
     "reactPlayerVimeo.7f978b46.chunk.js.map": "/pet-project/static/js/reactPlayerVimeo.7f978b46.chunk.js.map",
@@ -50,6 +50,6 @@
   },
   "entrypoints": [
     "static/css/main.41acf34e.css",
-    "static/js/main.19fe1e1f.js"
+    "static/js/main.e5a56d5f.js"
   ]
 }
