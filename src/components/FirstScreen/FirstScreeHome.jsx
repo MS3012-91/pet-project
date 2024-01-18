@@ -15,6 +15,7 @@ export default function FirstScreeHome() {
         muted
         playsInline
         loop
+        poster='assets/video/video-poster.png'
       >
         <source
           src='assets/video/pexels-niezlyziom.webm'
